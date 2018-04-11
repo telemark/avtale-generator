@@ -1,0 +1,76 @@
+{
+  "name": "avtale-generator",
+  "description": "Generator for avtaler",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "author": {
+    "name": "Geir Gåsodden",
+    "email": "geir.gasodden@pythonia.no",
+    "url": "https://github.com/zrrrzzt"
+  },
+  "contributors": [
+    {
+      "name": "Jonas Enge",
+      "email": "jonas.enge@gmail.com",
+      "url": "https://github.com/maccyber"
+    }
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=8.11.1"
+  },
+  "scripts": {
+    "test": "standard && nsp check && ava",
+    "test-offline": "standard && ava",
+    "coverage": "nyc ava",
+    "coveralls": "nyc ava && nyc report --reporter=lcov && cat coverage/lcov.info | coveralls",
+    "standard-fix": "standard --fix",
+    "start": "node index.js",
+    "refresh": "rm -rf node_modules && rm package-lock.json && npm install"
+  },
+  "keywords": [
+    "tfk",
+    "Telemark fylkeskommune",
+    "Generator",
+    "Avtaler"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/telemark/avtale-generator"
+  },
+  "bugs": {
+    "url": "https://github.com/telemark/avtale-generator/issues"
+  },
+  "homepage": "https://github.com/telemark/avtale-generator#readme",
+  "devDependencies": {
+    "ava": "0.25.0",
+    "coveralls": "3.0.0",
+    "nsp": "3.2.1",
+    "nyc": "11.6.0",
+    "standard": "11.0.1"
+  },
+  "dependencies": {
+    "axios": "0.18.0",
+    "birthdate-from-id": "1.2.2",
+    "capitalize": "1.0.0",
+    "dotenv": "5.0.1",
+    "elev-varsel-generate-document-title": "2.2.2",
+    "generate-docx": "2.0.0",
+    "get-age": "1.0.1",
+    "get-skole-aar": "1.0.0",
+    "is-valid-fodselsnummer": "3.0.0",
+    "jsonwebtoken": "8.2.1",
+    "p360": "3.1.0",
+    "sanitize-filename": "1.6.1",
+    "tfk-360-unwrap-contact": "2.0.10",
+    "tfk-dsf-normalize-contact": "2.3.0",
+    "tfk-dsf-unwrap-contact": "1.0.10",
+    "tfk-is-hemmelig-adresse": "3.0.0",
+    "avtale-templates": "1.0.0",
+    "tfk-schools-info": "2.0.0",
+    "uuid": "3.2.1",
+    "winston": "2.4.1",
+    "winston-papertrail": "1.0.5"
+  }
+}

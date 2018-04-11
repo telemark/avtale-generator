@@ -3,6 +3,8 @@
 
 # avtale-generator
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/telemark/avtale-generator.svg)](https://greenkeeper.io/)
+
 Generator for avtaler
 
 ## License

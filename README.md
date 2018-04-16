@@ -1,9 +1,8 @@
 [![Build Status](https://travis-ci.org/telemark/avtale-generator.svg?branch=master)](https://travis-ci.org/telemark/avtale-generator)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
+[![Greenkeeper badge](https://badges.greenkeeper.io/telemark/avtale-generator.svg)](https://greenkeeper.io/)
 
 # avtale-generator
-
-[![Greenkeeper badge](https://badges.greenkeeper.io/telemark/avtale-generator.svg)](https://greenkeeper.io/)
 
 Generator for avtaler
 

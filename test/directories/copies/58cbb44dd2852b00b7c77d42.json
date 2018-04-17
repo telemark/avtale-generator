@@ -2,33 +2,5 @@
   "_id": "58cbb44dd2852b00b7c77d42",
   "type": "elevpc",
   "category": "agreement",
-  "userName": "Mock Mr Mock",
-  "studentLastName": "Grim",
-  "studentMail": "helgeg@hotmail.com",
-  "studentPhone": "+4798888888",
-  "schoolOrganizationNumber": "974568098",
-  "skjemaUtfyllingStart": "1489744965803",
-  "isQueued": true,
-  "studentName": "Helge Grim",
-  "studentUserName": "0205helgeg",
-  "schoolPhone": "35 91 94 00",
-  "documentCategory": "orden",
-  "timeStamp": 1489744973792,
-  "orderCategories": "Du har ikke nødvendig skolemateriell klart til undervisning\nDu har udokumentert fravær",
-  "schoolName": "Bamble vgs. avd. Grasmyr",
-  "skjemaUtfyllingStop": 1489744973792,
-  "studentFirstName": "Helge Grim",
-  "studentMiddleName": "",
-  "period": "Halvårsvurdering 1. termin",
-  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36",
-  "userId": "djsdj",
-  "personalId": "01010750160",
-  "studentMainGroupName": "BAMVS:3ST",
-  "schoolId": "BAMVS",
-  "documentStatus": [
-    {
-      "timeStamp": 1489744973792,
-      "status": "I kø"
-    }
-  ]
+  "personalId": "01010750160"
 }

@@ -18,7 +18,7 @@ module.exports = {
   P360_URL: process.env.P360_URL || 'http://tfk-fh-siweb01t.login.top.no:8088/SI.WS.Core/SIF/',
   P360_USER: process.env.P360_USER || 'domain/username',
   P360_PASSWORD: process.env.P360_PASSWORD || 'password',
-  PAPERTRAIL_HOSTNAME: process.env.PAPERTRAIL_HOSTNAME || 'minelev-robot',
+  PAPERTRAIL_HOSTNAME: process.env.PAPERTRAIL_HOSTNAME || 'avtale-generator',
   PAPERTRAIL_HOST: process.env.PAPERTRAIL_HOST || 'logs.papertrailapp.com',
   PAPERTRAIL_PORT: process.env.PAPERTRAIL_PORT || 12345
 }

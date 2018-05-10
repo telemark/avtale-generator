@@ -1,4 +1,4 @@
-# Setting the base to nodejs 10.0.0
+# Setting the base to nodejs 10.1.0
 FROM node:10.1.0-alpine@sha256:3b0e27010a4b643cc67154381f0f8df74d9aa0d048222f0442428faefa248372
 
 #### Begin setup ####

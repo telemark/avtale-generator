@@ -53,7 +53,7 @@
   "dependencies": {
     "avtale-templates": "1.1.1",
     "axios": "0.18.0",
-    "birthdate-from-id": "1.2.2",
+    "birthdate-from-id": "2.0.0",
     "capitalize": "1.0.0",
     "dotenv": "6.0.0",
     "elev-varsel-generate-document-title": "2.3.0",

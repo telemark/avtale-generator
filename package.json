@@ -56,7 +56,7 @@
     "birthdate-from-id": "2.0.0",
     "capitalize": "1.0.0",
     "dotenv": "6.0.0",
-    "elev-varsel-generate-document-title": "2.3.0",
+    "elev-varsel-generate-document-title": "2.3.1",
     "generate-docx": "2.0.1",
     "get-age": "1.0.1",
     "get-skole-aar": "1.0.0",

@@ -1,7 +1,7 @@
 {
   "name": "avtale-generator",
   "description": "Generator for avtaler",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "license": "MIT",
   "private": true,
   "author": {

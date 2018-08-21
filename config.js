@@ -16,6 +16,8 @@ module.exports = {
   DISTRIBUTION_SIGNATURE_FORSENDELSETYPE: process.env.DISTRIBUTION_SIGNATURE_FORSENDELSETYPE || 'tfk.signatur',
   DSF_JWT_SECRET: process.env.DSF_JWT_SECRET || 'Louie Louie, oh no, I got to go Louie Louie, oh no, I got to go',
   DSF_SERVICE_URL: process.env.DSF_SERVICE_URL || 'https://dsf.micro.tjeneste.win',
+  KOR_JWT_SECRET: process.env.KOR_JWT_SECRET || 'Louie Louie, oh no, I got to go Louie Louie, oh no, I got to go',
+  KOR_SERVICE_URL: process.env.KOR_SERVICE_URL || 'https://kor.tjeneste.win/personinfo',
   P360_URL: process.env.P360_URL || 'http://tfk-fh-siweb01t.login.top.no:8088/SI.WS.Core/SIF/',
   P360_USER: process.env.P360_USER || 'domain/username',
   P360_PASSWORD: process.env.P360_PASSWORD || 'password',

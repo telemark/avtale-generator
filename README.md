@@ -3,7 +3,7 @@
 
 # avtale-generator
 
-Generator for avtaler og dokumenter
+Generator for avtaler og dokumenter som skal signeres elektronisk.
 
 # Bruk
 
@@ -11,12 +11,13 @@ Jobber legges i kø-mappen (```test/directories/queue```)
 
 En jobb må være en json-fil på formatet
 
-```
+```JavaScript
 {
-  "_id": "58cbb44dd2852b00b7c77d42",
+  "_id": "58cbb44dd2852b00b7c77d42", // uuid
   "type": "elevpc",
   "category": "agreement",
-  "personalId": "01010750160"
+  "personalId": "01010750160", // fødselsnummer
+  "organization": "974568012" // organisasjonsnummer
 }
 ```
 
@@ -33,9 +34,11 @@ Start roboten ```$ npm start```
 - [avtale-laurentius]()
 - [robot-post-payload](https://github.com/telemark/robot-post-payload)
 - [avtale-logg](https://github.com/telemark/avtale-logg)
+- [avtale-templates](https://github.com/telemark/avtale-templates)
+- [avtale-status](https://github.com/telemark/avtale-status)
+- [avtale-dashboard](https://github.com/telemark/avtale-dashboard)
+- [minelev-avtaler](https://github.com/telemark/minelev-avtaler)
 
 ## License
 
 [MIT](LICENSE)
-
-![Robohash image of avtale-generator](https://robots.kebabstudios.party/avtale-generator.png "Robohash image of avtale-generator")

@@ -9,12 +9,8 @@ test('it returns true for organizations', t => {
 
 test('it returns true for people not reserved', t => {
   const data = {
-    personer: [
-      {
-        personidentifikator: '26118642424',
-        reservasjon: 'NEI'
-      }
-    ]
+    personidentifikator: '26118642424',
+    reservasjon: 'NEI'
   }
 
   const validatedKor = validateKor(data)
@@ -23,12 +19,8 @@ test('it returns true for people not reserved', t => {
 
 test('it returns false for people reserved', t => {
   const data = {
-    personer: [
-      {
-        personidentifikator: '26118642424',
-        reservasjon: 'JA'
-      }
-    ]
+    personidentifikator: '26118642424',
+    reservasjon: 'JA'
   }
 
   const validatedKor = validateKor(data)

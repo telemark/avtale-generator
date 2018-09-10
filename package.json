@@ -51,7 +51,7 @@
   },
   "dependencies": {
     "@sindresorhus/slugify": "0.3.0",
-    "avtale-templates": "1.6.2",
+    "avtale-templates": "1.6.3",
     "axios": "0.18.0",
     "birthdate-from-id": "2.0.0",
     "capitalize": "1.0.0",

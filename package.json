@@ -60,7 +60,7 @@
     "generate-docx": "2.0.3",
     "get-age": "1.0.1",
     "get-skole-aar": "1.0.0",
-    "is-valid-fodselsnummer": "3.0.1",
+    "is-valid-fodselsnummer": "3.0.2",
     "jsonwebtoken": "8.3.0",
     "p360": "3.1.1",
     "sanitize-filename": "1.6.1",

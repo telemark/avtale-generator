@@ -64,7 +64,7 @@
     "jsonwebtoken": "8.4.0",
     "p360": "3.1.2",
     "sanitize-filename": "1.6.1",
-    "tfk-360-unwrap-contact": "2.0.10",
+    "tfk-360-unwrap-contact": "3.0.0",
     "tfk-dsf-normalize-contact": "2.3.0",
     "tfk-dsf-unwrap-contact": "1.0.10",
     "tfk-generate-archive-title": "1.1.2",

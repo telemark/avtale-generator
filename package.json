@@ -57,7 +57,7 @@
     "capitalize": "2.0.0",
     "dotenv": "6.2.0",
     "elev-varsel-generate-document-title": "2.3.2",
-    "generate-docx": "2.1.0",
+    "generate-docx": "2.1.1",
     "get-age": "1.0.1",
     "get-skole-aar": "1.0.0",
     "is-valid-fodselsnummer": "3.0.2",

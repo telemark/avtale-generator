@@ -50,7 +50,7 @@
     "standard": "12.0.1"
   },
   "dependencies": {
-    "@sindresorhus/slugify": "0.8.0",
+    "@sindresorhus/slugify": "0.9.0",
     "avtale-templates": "1.6.4",
     "axios": "0.18.0",
     "birthdate-from-id": "2.0.0",

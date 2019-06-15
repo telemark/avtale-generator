@@ -34,7 +34,7 @@ Start roboten ```$ npm start```
 - [avtale-laurentius]()
 - [robot-post-payload](https://github.com/telemark/robot-post-payload)
 - [avtale-logg](https://github.com/telemark/avtale-logg)
-- [avtale-templates](https://github.com/telemark/avtale-templates)
+- [document-templates](https://github.com/telemark/document-templates)
 - [avtale-status](https://github.com/telemark/avtale-status)
 - [avtale-dashboard](https://github.com/telemark/avtale-dashboard)
 - [minelev-avtaler](https://github.com/telemark/minelev-avtaler)

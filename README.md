@@ -25,6 +25,25 @@ filnavnet må være ```${_id}.json```
 
 Start roboten ```$ npm start```
 
+# Utvikling
+
+Lag en lokal .env fil
+
+Når `NODE_ENV` settes til `development` legges det inn dummydata for P360.
+Da behøver P360_* verdiene ikke å fylles ut med mindre du har tilgang til testmiljø.
+
+```
+NODE_ENV=development
+DISTRIBUTION_CODE=1161
+DISTRIBUTION_LETTER_TYPE=APOST
+DSF_JWT_SECRET=dsf-jwt-secret
+DSF_SERVICE_URL=dsf-service-url
+P360_URL=p360-service-url
+P360_USER=p360-service-user
+P360_PASSWORD=p360-service-password
+KOR_JWT_SECRET=kor-jwt-secret
+KOR_SERVICE_URL=kor-service-url
+```
 
 # Se også
 

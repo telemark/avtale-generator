@@ -72,7 +72,7 @@
     "tfk-generate-svarut-title": "1.2.1",
     "tfk-is-hemmelig-adresse": "3.0.1",
     "tfk-schools-info": "2.2.0",
-    "uuid": "3.3.2",
+    "uuid": "3.4.0",
     "winston": "2.4.4",
     "winston-papertrail": "1.0.5"
   }
